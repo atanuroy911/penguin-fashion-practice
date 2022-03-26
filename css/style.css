@@ -1,0 +1,83 @@
+/* ----- Custom Style Sheet Start ----- */
+
+/* ----- Font Styles ----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap');
+
+.yellow-accent{
+    color: #FABE4C;
+}
+.grey-accent{
+    color: #363958;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #3C3C3C;
+}
+.head-accent{
+    background-color: #FFFBF0;
+}
+
+main .head-accent{
+    height: 575px;
+}
+
+
+h1{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 400;
+}
+.moto-title h1{
+    
+    font-size: 80px;
+}
+.product-category h1{
+    font-size: 48px;
+}
+
+.btn-grad {background-image: linear-gradient(to right, #3CA55C 0%, #B5AC49  51%, #3CA55C  100%)}
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+ }
+
+ .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.product-card{
+    width: 370px;
+    height: 550px;
+    border-radius: 20px !important;
+}
+.product-img{
+    width: .65em;
+    height: 327px;
+    background-color: #F1F1F1;
+    border-radius: 20px;
+}
+.product-price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+}
+ 
+
